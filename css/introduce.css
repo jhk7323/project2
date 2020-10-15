@@ -1,0 +1,439 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.moblie_header{display: none;}
+.m_icon1{display: none;}
+.m_icon2{display: none;}
+.m_icon3{display: none;}
+
+
+#main {
+    width: 100%;
+    height: 330px;
+    background-image: url(../img/sub_img/sub_main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#main h1 {
+    display: inline-block;
+    font-size: 5.6rem;
+    color: #fff;
+    margin: 105px 0 0 360px;
+}
+
+
+
+.global_navi {
+    display: inline-block;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(1, 71, 78, 0.5);
+    margin-top: 82px;
+}
+
+.global_navi .inner {
+    margin: 0 auto;
+    height: 60px;
+    width: 1205px;
+}
+
+.global_navi .inner i {
+    float: left;
+    line-height: 70px;
+    text-align: center;
+    width: 4%;
+    height: 60px;
+    border-right: 1px solid #799ea9;
+    border-left: 1px solid #799ea9;
+}
+
+.select_box{float: left;
+    font-size: 0;
+    border-right: 1px solid #fff;
+    width: 15%;
+    margin-left: 40px;
+}
+
+.navi_list {
+    font-size: 1.7rem;
+    border: none;
+    background-color: rgba(1, 71, 78, 0.01);
+    color: #fff;
+    line-height: 60px;
+    height: 60px;
+    padding: 0 0;
+    width:150px;
+    
+
+}
+
+.navi_list option {
+    color: #333;
+}
+
+#contetns {
+    width:100%;
+    height: 1848px;
+    margin: 0 auto;
+}
+
+
+.goal {margin: 0 auto;
+    width: 1205px;
+    height: 1010px;
+}
+
+
+.goal h3 {
+    font-size: 3.6rem;
+    color: #333;
+    padding-top: 74px;
+}
+
+.goal_box {
+    height: 865px;
+    width: 100%;
+    border: 1px solid #dddddd;
+    margin-top: 35px;
+}
+
+.goal_box1,
+.goal_box1_2,
+.goal_box1_3,
+.goal_box1_4 {
+    margin: 0 auto;
+    width: 78%;
+    height: 198px;
+}
+
+.goal_box1 {
+    padding-top: 50px;
+}
+
+.goal_box1 i {
+    background-image: url(../img/sub_img/subicon1.png);
+}
+
+.goal_box1_2 i {
+    background-image: url(../img/sub_img/subicon2.png)
+}
+
+.goal_box1_3 i {
+    background-image: url(../img/sub_img/subicon3.png)
+}
+
+.goal_box1_4 i {
+    background-image: url(../img/sub_img/subicon4.png)
+}
+
+
+.goal_box1 i,
+.goal_box1_2 i,
+.goal_box1_3 i,
+.goal_box1_4 i {
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 160px;
+    height: 160px;
+    /*padding-top: calc(154/153*100%)*/
+}
+
+
+.goal_box1 h4,
+.goal_box1_2 h4,
+.goal_box1_3 h4,
+.goal_box1_4 h4 {
+    line-height: 30px;
+    float: left;
+    text-align: center;
+    margin: 55px 0 0 22%;
+    font-size: 2.3rem;
+    color: #fff;
+    width: 50%;
+    font-style: normal;
+}
+
+
+.goal_box1 .line,
+.goal_box1_2 .line,
+.goal_box1_3 .line,
+.goal_box1_4 .line {
+    float: left;
+    margin-left: -7px;
+    margin-top: 80px;
+    width: 10.4%;
+    height: 1px;
+    background-color: #dddddd;
+}
+
+.text_box {
+    float: left;
+    width: 69.7%;
+    height: 135px;
+    border: 1px solid #dddddd;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+
+
+.text_box li {
+    font-size: 1.7rem;
+    color: #333;
+    padding-top: 27px;
+    margin-left: 43px;
+}
+
+
+
+.goal_box1_3 h4 {
+    width: 60%;
+    margin-left: 27px;
+}
+
+.text_box1_4 {
+    float: left;
+    width: 69.7%;
+    height: 135px;
+    border: 1px solid #dddddd;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+
+.text_box1_4 li {
+    font-size: 1.7rem;
+    color: #333;
+    padding-top: 14px;
+    margin-left: 43px;
+}
+
+
+.point {
+    margin: 0 auto;
+    width:1205px;
+    height: 615px;
+}
+
+.point h3 {
+    font-size: 3.6rem;
+    color: #333;
+    padding-top: 74px;
+    margin-bottom: 44px;
+}
+
+.point_box1,
+.point_box2,
+.point_box3,
+.point_box4 {
+    border: 1px solid #e1e1e1;
+    float: left;
+    margin-right: 2%;
+    width: 48%;
+    height: 260px;
+    background-color: #f4f4f4;
+    margin-bottom: 2%;
+}
+
+.point_box1 i,
+.point_box2 i,
+.point_box3 i,
+.point_box4 i {
+    float: right;
+    margin-top: 80px;
+    margin-right: 38px;
+}
+
+.point_box2,
+.point_box4 {
+    margin-right: 0px;
+}
+
+
+.point_box1 h5,
+.point_box2 h5,
+.point_box3 h5,
+.point_box4 h5 {
+    font-size: 2rem;
+    color: #333;
+    margin: 35px 0 0 34px;
+}
+
+.point_box1 li,
+.point_box2 li,
+.point_box3 li,
+.point_box4 li {
+    font-size: 1.6rem;
+    margin: 18px 0 0 34px;
+}
+
+.point_box1 li:first-child {
+    margin-top: 29px;
+}
+
+.point_box2 li:first-child {
+    margin-top: 29px;
+}
+
+.point_box3 li:first-child {
+    margin-top: 29px;
+}
+
+.point_box4 li:first-child {
+    margin-top: 29px;
+}
+
+
+#footer .inner i {
+    float: right;
+    margin-top: 40px;
+}
+
+#footer .inner select {
+    float: right;
+    margin-top: 83px;
+    font-size: 1.4rem;
+    padding: 10px 12px;
+}
+
+@media (max-width:1204px){
+    #header{height: 100px; width: 99.5%;}
+    
+    .logo{line-height: 155px; width: 13%;padding-left: 40px;}
+    .navi{margin-top: 10px; width: 65.8%;}
+    .navi li{margin-left: 3%}
+    
+    #main h1{font-size: 4.5rem;margin: 122px 0 0 308px;}
+    
+    .global_navi{height: 52px;margin-top: 90px;}
+    .navi_list li{height: 52px; line-height: 50px;}
+    .global_navi .inner i{height: 52px; padding: 0 5px; }
+    .global_navi .inner{width:79.2%;float: left;}
+    .navi_list li::after{margin: 0 18px 0 48px;}
+    .select_box{width: 25%;margin-left: 3%}
+    
+    .goal{width: 90%;}
+   
+    .goal_box1 i, .goal_box1_2 i, .goal_box1_3 i, .goal_box1_4 i{background-size: 100%;}
+    .goal h3{padding-top: 60px;}
+    .goal_box1, .goal_box1_2, .goal_box1_3, .goal_box1_4{width: 75.3%;}
+    .text_box{width: 60%}
+    .text_box1_4{width: 60%}
+    
+    .goal_box1 h4, .goal_box1_2 h4, .goal_box1_3 h4, .goal_box1_4 h4{width: 80%;
+    margin: 45% 0 0 10px;}
+    
+    .goal_box1 .line, .goal_box1_2 .line, .goal_box1_3 .line, .goal_box1_4 .line{margin-left: 0;width: 4%;}
+    
+    .point{width: 90%;}
+    
+    .point h3{font-size: 3rem;}
+    
+    .point_box1, .point_box2, .point_box3, .point_box4{margin-bottom: 1%;}
+    
+    .point_box1 i, .point_box2 i, .point_box3 i, .point_box4 i{margin: 80px 10px 0 0;}
+    
+    .point_box1 h5, .point_box2 h5, .point_box3 h5, .point_box4 h5{font-size: 1.6rem; width: 100%;margin-left: 20px;}
+    
+    .point_box1, .point_box2, .point_box3, .point_box4{width: 48%; margin-right: 1%;}
+   
+    .point_box1 li, .point_box2 li, .point_box3 li, .point_box4 li{font-size: 1.5rem;margin: 10px 0 0 20px;}
+    #footer .inner{width: 90%;}
+    #footer .inner i{margin-right: -190px;}
+     
+    
+}
+
+@media (max-width:768px){
+    #header{height: 51px; border-bottom: 1px solid #dadada; width: 100%;}
+    .global_navi .inner{width:17%;}
+    .m_icon1{display: block;padding: 15px 0 0 18px;}
+    .m_icon2{display: block;float: right;margin: -20px 51px 0 0;}
+    .m_icon3{display: block;float: right;margin: -17px 16px 0 0;}
+    .moblie_header{display: block;font-size: 1.7rem;text-align: center;width:100%;margin-top: -25px;}
+    .logo{display: none;}
+    .q_mn ul{display: none;}
+    .navi{display: none;}
+                    
+    #main{display: none;}
+    
+    #contetns{height:2000px; width:99%;}
+    
+    .goal{width:100%;}
+    .goal h3{padding-left: 10px;}
+    .goal_box1{padding-top: 15px;}
+    
+    .text_box li{margin-left: 8px; padding-top: 18px;font-size: 1.5rem;}
+    .text_box1_4 li{margin-left: 8px; padding-top: 10px;font-size: 1.5rem;}
+    
+    .goal_box{height: 800px;width: 95%;margin: 0 auto;}
+    
+    .goal_box1 i, .goal_box1_2 i, .goal_box1_3 i, .goal_box1_4 i{width:28%;margin-left: -0px;margin-top: 20px;}
+    
+    .goal_box1 h4, .goal_box1_2 h4, .goal_box1_3 h4, .goal_box1_4 h4{font-size: 1.6rem;width: 100%;
+        margin: 40% 0 0 -2px;}
+    
+    .point{height: 1200px;}
+    
+    .point_box1, .point_box2, .point_box3, .point_box4{width: 95%;height: 180px;}
+    
+    .point_box1 i, .point_box2 i, .point_box3 i, .point_box4 i{margin-top: 0;}
+    
+    .point_box1 h5, .point_box2 h5, .point_box3 h5, .point_box4 h5{margin: 10px 0 0 20px; font-size: 1.5rem;width: 100%;}
+    
+    .point_box1 i, .point_box2 i, .point_box3 i, .point_box4 i{margin: 40px -11px 0 0px ;}
+    
+    
+    .point_box1 li, .point_box2 li, .point_box3 li, .point_box4 li{line-height: 20px;}
+    .point_box1 li:first-child{margin-top: 10px;}
+    .point_box2 li:first-child{margin-top: 10px;}
+    .point_box3 li:first-child{margin-top: 10px;}
+    .point_box4 li:first-child{margin-top: 10px;}
+    
+    
+    .point_box1 i img ,
+    .point_box2 i img ,
+    .point_box3 i img ,
+    .point_box4 i img {width: 78%;}
+    
+    #footer .inner{width: 95%;}
+    
+    
+}
+
+@media (max-width:375px){
+   
+    #contetns{height: 1600px;}
+    
+    .goal{height: 610px;}
+    .goal_box{width: 95%; margin:0 auto;
+    height: 510px; border: none;}
+    .goal h3{font-size: 2.3rem;margin-left: 10px;}
+    
+    .goal_box1 , .goal_box1_2 , .goal_box1_3 , .goal_box1_4{width: 100%;height: 100px;}
+    
+    .goal_box1 h4, .goal_box1_2 h4, .goal_box1_3 h4, .goal_box1_4 h4{display: none;}
+    .goal_box1 i, .goal_box1_2 i, .goal_box1_3 i, .goal_box1_4 i{display: none;}
+    .goal_box1 .line, .goal_box1_2 .line, .goal_box1_3 .line, .goal_box1_4 .line{display: none;}
+    .text_box{width: 100%; height: 100px;}    
+    .text_box1_4{width: 100%;}
+    .text_box li{font-size: 1.5rem;margin-left: 8px;padding-top: 10px;}
+    .text_box1_4 li{font-size: 1.5rem;margin-left: 8px;padding-top: 15px;}
+    
+    .point h3{font-size: 2.4rem;}
+    .point_box1, .point_box2, .point_box3, .point_box4{height: 200px;margin-bottom: 10px;}
+  
+    .point_box1 i, .point_box2 i, .point_box3 i, .point_box4 i{ width: 35%;   padding: 65px 0px 0 0px;}
+    
+    .point_box1 li:first-child{margin-top: 13px;}
+    .point_box2 li:first-child{margin-top: 8px;}
+    .point_box3 li:first-child{margin-top: 13px;}
+    .point_box4 li:first-child{margin-top: 13px;}
+    
+    .point_box1 li, .point_box2 li, .point_box3 li, .point_box4 li{line-height: 18px;    margin: 5px 0 0 20px;font-size: 1.3rem;}
+    
+    .footer_icon{display: none;}
+
+}
+
